@@ -4,6 +4,7 @@
 
 BC breaks:
 
+- [#409](https://github.com/PHP-DI/PHP-DI/issues/409): Scopes are removed (by [@mnapoli](https://github.com/mnapoli))
 - The deprecated `DI\link()` helper was removed, used `DI\get()` instead
 
 ## 5.4
