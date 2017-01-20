@@ -35,6 +35,11 @@
         "doctrine/annotations": "~1.2",
         "ocramius/proxy-manager": "~1.0|~2.0"
     },
+    "extra": {
+        "branch-alias": {
+            "dev-allowOverride": "5.4.0-dev"
+        }
+    },
     "replace": {
         "mnapoli/php-di": "*"
     },
