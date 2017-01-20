@@ -270,7 +270,7 @@ class Container implements ContainerInterface, FactoryInterface, \DI\InvokerInte
      * @throws DependencyException Error while resolving the entry.
      * @return mixed
      */
-    private function resolveDefinition(Definition $definition, array $parameters = [])
+    protected function resolveDefinition(Definition $definition, array $parameters = [])
     {
         $entryName = $definition->getName();
 
